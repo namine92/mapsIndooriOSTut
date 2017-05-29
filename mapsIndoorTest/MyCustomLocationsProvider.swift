@@ -7,3 +7,22 @@
 //
 
 import Foundation
+import MapsIndoors
+
+class MyCustomLocationsProvider : MPLocationsProvider {
+    
+    public override func getLocationsAsync(_ solutionId: String!, language: String!){
+        
+    }
+    
+    public override func getLocationDetailsAsync(_ solutionId: String!, withId locationId: String!, language: String!){
+        
+        
+    }
+    
+    public override func getLocationsUsingQueryAsync(_ locationQuery: MPLocationQuery!, language: String!) {
+        
+        
+    }
+
+}
